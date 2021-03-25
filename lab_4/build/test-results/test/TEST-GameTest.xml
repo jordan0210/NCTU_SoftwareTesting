@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-03-25T07:39:31" hostname="DESKTOP-AE7Q0KO" time="0.075">
+  <properties/>
+  <testcase name="TestInvaildInputCase(String)[1]" classname="GameTest" time="0.029"/>
+  <testcase name="TestInvaildInputCase(String)[2]" classname="GameTest" time="0.001"/>
+  <testcase name="TestInvaildInputCase(String)[3]" classname="GameTest" time="0.001"/>
+  <testcase name="TestInvaildInputCase(String)[4]" classname="GameTest" time="0.001"/>
+  <testcase name="TestVaildInputCase(String, int)[1]" classname="GameTest" time="0.002"/>
+  <testcase name="TestVaildInputCase(String, int)[2]" classname="GameTest" time="0.001"/>
+  <testcase name="TestVaildInputCase(String, int)[3]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllLoseCase(int[], String)[1]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllLoseCase(int[], String)[2]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllLoseCase(int[], String)[3]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllWinCase(int[], String)[1]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllWinCase(int[], String)[2]" classname="GameTest" time="0.0"/>
+  <testcase name="TestAllWinCase(int[], String)[3]" classname="GameTest" time="0.0"/>
+  <testcase name="TestAllDrawCase(int[], String)[1]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllDrawCase(int[], String)[2]" classname="GameTest" time="0.001"/>
+  <testcase name="TestAllDrawCase(int[], String)[3]" classname="GameTest" time="0.001"/>
+  <system-out><![CDATA[=== Welcome to Rock-Paper-Scissors game ===
+Bad Choice!
+=== Welcome to Rock-Paper-Scissors game ===
+Bad Choice!
+=== Welcome to Rock-Paper-Scissors game ===
+Bad Choice!
+=== Welcome to Rock-Paper-Scissors game ===
+Bad Choice!
+=== Welcome to Rock-Paper-Scissors game ===
+=== Welcome to Rock-Paper-Scissors game ===
+=== Welcome to Rock-Paper-Scissors game ===
+=== Welcome to Rock-Paper-Scissors game ===
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
