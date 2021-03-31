@@ -1,6 +1,5 @@
 import jdk.jfr.Name;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -9,28 +8,26 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class GameTest {
     private static Stream<Arguments> AllWinTestInputParameter(){
         return Stream.of(
-                Arguments.of(new int[]{0, 2}, "Player 1 win!\r\n"),
-                Arguments.of(new int[]{1, 0}, "Player 1 win!\r\n"),
-                Arguments.of(new int[]{2, 1}, "Player 1 win!\r\n")
+                Arguments.of(new int[]{0, 2}, "Player 1 win!\n"),
+                Arguments.of(new int[]{1, 0}, "Player 1 win!\n"),
+                Arguments.of(new int[]{2, 1}, "Player 1 win!\n")
         );
     }
     private static Stream<Arguments> AllLoseTestInputParameter(){
         return Stream.of(
-                Arguments.of(new int[]{0, 1}, "Player 2 win!\r\n"),
-                Arguments.of(new int[]{1, 2}, "Player 2 win!\r\n"),
-                Arguments.of(new int[]{2, 0}, "Player 2 win!\r\n")
+                Arguments.of(new int[]{0, 1}, "Player 2 win!\n"),
+                Arguments.of(new int[]{1, 2}, "Player 2 win!\n"),
+                Arguments.of(new int[]{2, 0}, "Player 2 win!\n")
         );
     }
     private static Stream<Arguments> AllDrawTestInputParameter(){
         return Stream.of(
-                Arguments.of(new int[]{0, 0}, "Draw!\r\n"),
-                Arguments.of(new int[]{1, 1}, "Draw!\r\n"),
-                Arguments.of(new int[]{2, 2}, "Draw!\r\n")
+                Arguments.of(new int[]{0, 0}, "Draw!\n"),
+                Arguments.of(new int[]{1, 1}, "Draw!\n"),
+                Arguments.of(new int[]{2, 2}, "Draw!\n")
         );
     }
     private static Stream<Arguments> TestValidInputParameter(){
