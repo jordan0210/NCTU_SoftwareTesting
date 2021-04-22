@@ -6,9 +6,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class student_309552026 {
     public static void main(String[] args){
-        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         // Navigate to a nycu
