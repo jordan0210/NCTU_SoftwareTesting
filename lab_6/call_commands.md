@@ -1,6 +1,8 @@
 # callgraph
 # generate Lab_6.ll
 clang -S -emit-llvm ./Lab_6.c
+# 優化程式
+opt -S -mem2reg Lab_6.ll
 # generate callgraph base on Lab_6.ll, the output .dot file is ./callgraph.dot
 opt -S -dot-callgraph Lab_6.ll
 
